@@ -1,6 +1,6 @@
 import 'dart:math';
-
 import 'package:flutter/material.dart';
+
 
 void main() {
   runApp(const RollDiceWidget());
@@ -43,7 +43,6 @@ class _RollDiceWidgetState extends State<RollDiceWidget> {
                 'assets/images/dice-$indexImage.png',
                 width: 200,
               ),
-              // Image.asset('assets\images\dice-$indexImage.png',width: 200,),
               ElevatedButton.icon(
                   onPressed: clickDice,
                   icon: const Icon(Icons.arrow_right),
